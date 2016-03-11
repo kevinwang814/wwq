@@ -1,0 +1,70 @@
+/*
+ 登录界面 css
+*/
+body,td,th {
+    font-family: 微软雅黑;
+    font-size: 12px;
+    color: #333333;
+}
+body {
+    margin:0 auto;
+    background-image: url(/img/loginbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color:#F2F2F2;
+    width:1000px;
+}
+a:link {
+    color: #333333;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #333333;
+}
+a:hover {
+    text-decoration: none;
+    color: #01A2AA;
+}
+a:active {
+    text-decoration: none;
+    color: #01A2AA;
+}
+.login2016{ width:auto; height:455px; padding-top:305px; padding-left:678px; padding-right:48px;}
+#logtab{}
+#logtab td{height:55px;}
+.reglink{ color:#FFFFFF; font-weight:bold; font-size:14px;}
+.reglink a{ color:#FFFFFF!important;}
+
+#logtab input{
+    width:224px;
+    height:38px;
+    line-height:38px;
+    background-color:#FFFFFF;
+    padding-left:50px;
+    border:0px #fff solid;
+    color:#666666;
+    font-size:14px;
+    border-radius:3px;
+}
+#logtab .input1{
+    background-image: url(/img/login_3.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+#logtab .input2{
+    background-image: url(/img/login_6.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+#logtab .input3{
+    width:100px!important;
+    background-image: url(/img/login_11.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.bottom2016{ width:1000px; height:105px; padding-top:35px; line-height:35px; text-align:center; color:#878787;}
+.bottom2016 a{ color:#878787!important;}
