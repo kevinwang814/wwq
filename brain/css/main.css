@@ -413,3 +413,101 @@ label {
 /*
   此css适用于所有添加内容界面 end
 */
+
+.img_add input[type='file'] {
+  /*position: relative;*/
+  display: block;
+  border:none;
+  outline: none;
+}
+/*.img_add input[type='file']:before {
+    content: '';
+    display: block;
+    width: 260px;
+    height: 180px;
+    background:#fff url(../img/add.png) no-repeat top left;
+    position: absolute;
+}*/
+.rewri_file {
+  display:block;
+  width: 150px;
+  height: 80px;
+  border-radius:10px;
+  position: relative;
+  cursor:pointer;
+  background: #fff;
+}
+.rewri_file span {
+  width: 150px;
+  height: 80px;
+  background: url(../img/add.png) no-repeat center center;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  bottom:0;
+  z-index:0;
+}
+.rewri_file input[type='file'] {
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  top:0;
+  left:0;
+  opacity: 0;
+  cursor:pointer;
+  z-index:1;
+}
+.img_dat {
+  display:inline-block;
+  width: 150px;
+  height: 80px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius:10px;
+  position: relative;
+  cursor:pointer;
+  font-size:16px;
+  color:#fff;
+  text-align: center;
+  overflow: hidden;
+}
+.img_dat img {
+  width: 150px;
+  height: 80px;
+
+}
+.img_dat span {
+  display: none;
+}
+.img_dat:hover span{
+  display: inline-block;
+  width: 150px;
+  height: 80px;
+  background: rgba(0,0,0,.5) url(../img/delete.png) no-repeat center center;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  bottom:0;
+  z-index:999;
+}
+
+.only_read {
+  border:none;
+  background: none;
+  outline: none;
+}
+.only_read[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  background: #fff;
+  border:none;
+  outline: none;
+  box-shadow: none;
+}
+#imgs .img_dat,#imgs .img_dat img{
+  width: 260px;
+  height: 150px;
+}
+#imgs .img_dat:hover span{
+  display:none
+}

@@ -7,37 +7,42 @@
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">新闻标题：</label>
                     <div class="col-md-4 col-xs-4">
-                        <input type="text" class="form-control" placeholder="新闻标题" required>
+                        <input type="text" class="form-control" id="title" placeholder="新闻标题" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">新闻描述：</label>
                     <div class="col-md-4 col-xs-4">
-                        <textarea class="form-control" style="height: 200px;overflow-y: scroll" required>
+                        <textarea class="form-control" id="description" style="height: 200px;overflow-y: scroll" required>
                         </textarea>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label  class="col-sm-2 control-label">新闻内容：</label>
+                    <label  class="col-sm-2 control-label" >新闻内容：</label>
                     <div class="col-md-4 col-xs-4">
-                        <textarea class="form-control" style="height: 200px;overflow-y: scroll" required>
+                        <textarea class="form-control" id="content" style="height: 200px;overflow-y: scroll" required>
                         </textarea>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">新闻图片：</label>
-                    <div class="col-md-4 col-xs-4">
+                    <div class="col-md-10 col-xs-10 img_add text-left">
                         <!-- 上传图片【start】-->
-                        <input id="file-1" type="file" multiple class="file" data-overwrite-initial="false" data-max-file-count="1">
-                        <!--
-                           data-max-file-count="2" 设置最多上传数量
-                        -->
-                        <!-- 上传图片【end】-->
+                        <div class="rewri_file">
+                            
+                            <input id="newsImage" name="newsImage" type="file" />
+                            <span></span>
+                          
+                        </div>
+                        
+                        
                     </div>
                 </div>
+                
+                
                 <div class="form-group">
                     <div class="col-md-offset-2 col-xs-offset-2 col-md-4 col-xs-4">
-                        <button type="submit" class="btn btn-primary">确 认 添 加</button>
+                        <button id="submit" class="btn btn-primary">确 认 添 加</button>
                     </div>
                 </div>
             </form>
@@ -56,21 +61,69 @@
         $('.menu:eq(1) .second-nav li:eq(1)').addClass('active');
     });
 </script>
-<script src="/js/file/fileinput.js"></script>
-<script src="/js/file/fileinput_locale_zh.js"></script>
 <script>
-
-    $("#file-1").fileinput({
-        uploadUrl: '#', // you must set a valid URL here else you will get an error
-        allowedFileExtensions : ['jpg', 'png','gif'],
-        overwriteInitial: false,
-        maxFileSize: 1000,
-        maxFilesNum: 10,
-        //allowedFileTypes: ['image', 'video', 'flash'],
-        slugCallback: function(filename) {
-            return filename.replace('(', '_').replace(']', '_');
+    var fileType = new Array('image/png','image/jpeg','image/gif','image/bmp');
+    $(document).on("change",'#newsImage',function(){
+        var file = $(this).get(0).files[0];
+        var type = file['type'];
+        var fileElementId = $(this).attr('id');
+        if($.inArray(type,fileType) != -1){
+            $.ajaxFileUpload({
+                url:'handler.html',
+                secureuri:false,
+                fileElementId:fileElementId,
+                dataType:'json',
+                success:function(data,status){
+                    $('.img_add').append('<div class="img_dat"><span></span><img src="' + data.src + '" alt=" "></div>');
+                }
+            });
+        }
+    
+    });
+     //点击图片删除事件
+    $(document).on('click','.img_dat',function() {
+        if(confirm('是否要删除吗？')) {
+             $(this).remove();
         }
     });
-
+    
+    
+    $(document).on('click','#submit',function(){
+        var title = $.trim($('#title').val());
+        var description = $.trim($('#description').val());
+        var content = $.trim($('#content').val());
+        var img = $('.img_add .img_dat img');
+        var imgStr = '';
+        for(var i=0; i< img.length;i++){
+            imgStr += img.eq(i).attr('src')+",";
+        }
+        //alert(imgStr);
+        if(title != '' && description != '' && content != '' && imgStr != ''){
+            $.ajax({
+                url:'handler.html',
+                type:'POST',
+                dataType:'json',
+                data:{
+                    title:title,
+                    description:description,
+                    content:content,
+                    imgStr:imgStr,
+                    requestType:'createNews'
+                },
+                success:function(data){
+                    if(data.message == 'success'){
+                        alert("操作成功!");
+                        window.location.href = '/news/list.html';
+                    }
+                },
+                error:function(data){
+                    alert(JSON.stringify(data));
+                    alert("网络连接错误!");
+                }
+            });
+        }else {
+            alert("输入信息有误，请重新填写");
+        }
+    });
 </script>
 <?php $this->_endblock();

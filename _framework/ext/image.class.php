@@ -65,7 +65,6 @@ class Ext_Image
             $bg->compositeImage($image, Imagick::COMPOSITE_OVER, 0, 0);
             $bg->setImageFormat("jpg");
             $bg->writeImage($destname);
-
             $image->clear();
             $image->destroy();
             $bg->clear();

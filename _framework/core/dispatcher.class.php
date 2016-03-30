@@ -16,7 +16,6 @@ class Core_Dispatcher
         if($this->_module == '')
         {
             $this->_module = isset($_GET['mod']) ? $this->SafeModule( $_GET['mod'] ) : '';
-            file_put_contents('C:\Users\Administrator\Desktop\back_stage3.2\data.log', $this->_moduleRootPath.'---'.$this->_module."wzb\r\n",FILE_APPEND);
         }
     }
 

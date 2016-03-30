@@ -3,50 +3,51 @@
     <div id="main-content">
         <!-- 新闻动态管理内容【开始】-->
         <section id="movie-content" style="margin-top: 50px">
+
+            <div style="display: block;width: 100%;margin-bottom: 20px">
+                <button type="button" class="btn btn-primary" id="update">编辑<btton>
+            </div>
+
             <form class="form-horizontal" action="#" method="post">
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">新闻标题：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <input type="text" class="form-control" value="家庭屋顶菜园-午后的纳凉地">
+                    <div class="col-md-6 col-xs-6">
+                        <input type="text" id="title" class="form-control only_read"  readonly>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">新闻描述：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <textarea class="form-control" style="height: 200px;overflow-y: scroll">
-                            炎炎夏日里，最受人们欢迎的当属那些凉快、避暑的地方，什么海滩、水上公园都成了“下饺子”的场所。
-                            今天，小编特别推荐一个夏日午后的好去处——屋顶菜园。
+                    <div class="col-md-6 col-xs-6">
+                        <textarea class="form-control only_read" id="description" style="height: 200px;overflow-y: scroll" readonly>
                         </textarea>
                     </div>
                 </div>
                 <div class="form-group">
                     <label  class="col-sm-2 control-label">新闻内容：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <textarea class="form-control" style="height: 200px;overflow-y: scroll">
-                            炎炎夏日里，最受人们欢迎的当属那些凉快、避暑的地方，什么海滩、水上公园都成了“下饺子”的场所。今天，小编特别推荐一个夏日午后的好去处——屋顶菜园。
-                            爬上屋顶菜园，虽没有大自然里的碧水青山，但放眼望去，一抹新绿铺满整个屋顶，令人心旷神怡。置身其中，细长的瓜果藤蔓悠悠地爬满菜园栅栏，形成一道植物绿墙。
-                            由支杆架起的番茄早已挂满了果实，等待采摘。不远处，挺拔的玉米超过了人高，一阵风过，叶子在风中起舞摇曳。
+                    <div class="col-md-6 col-xs-6">
+                        <textarea class="form-control only_read" id="content" style="height: 200px;overflow-y: scroll" readonly>
                         </textarea>
                     </div>
                 </div>
-                <div class="form-group">
-                    <label class="col-md-2 col-xs-2  control-label">原始新闻图片：</label>
-                    <img src="img/fram_img.jpg" class="col-md-4 col-xs-4" alt="img">
+                <div class="form-group" id="hide_content">
+                     <label class="col-md-2 col-xs-2  control-label">修改新闻图片：</label>
+                     <div class="col-md-10 col-xs-10 img_add text-left">
+                          <!-- 上传图片【start】-->
+                          <div class="rewri_file">
+                               <input id="newsImage" name="newsImage" type="file" />
+                               <span></span>
+                          </div>
+                     </div>
                 </div>
-                <div class="form-group">
-                    <label class="col-md-2 col-xs-2  control-label">修改新闻图片：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <!-- 上传图片【start】-->
-                        <input id="file-1" type="file" multiple class="file" data-overwrite-initial="false" data-max-file-count="1">
-                        <!--
-                           data-max-file-count="2" 设置最多上传数量
-                        -->
-                        <!-- 上传图片【end】-->
-                    </div>
+
+                <div class="form-group text-left" id="imgs">
+                    <label class="col-md-2 col-xs-2  control-label" >新闻图片：</label>
+
                 </div>
-                <div class="form-group">
+
+                <div class="form-group" >
                     <div class="col-md-offset-2 col-xs-offset-2 col-md-4 col-xs-4">
-                        <button type="submit" class="btn btn-primary">确 认 修 改</button>
+                        <button id="submit" class="btn btn-primary">确 认 修 改</button>
                     </div>
                 </div>
             </form>
@@ -65,21 +66,83 @@
         $('.menu:eq(1) .menu-content span').addClass('cur');
         $('.menu:eq(1) .second-nav li:eq(0)').addClass('active');
     });
-</script>
-<script src="js/file/fileinput.js"></script>
-<script src="js/file/fileinput_locale_zh.js"></script>
-<script>
 
-    $("#file-1").fileinput({
-        uploadUrl: '#', // you must set a valid URL here else you will get an error
-        allowedFileExtensions : ['jpg', 'png','gif'],
-        overwriteInitial: false,
-        maxFileSize: 1000,
-        maxFilesNum: 10,
-        //allowedFileTypes: ['image', 'video', 'flash'],
-        slugCallback: function(filename) {
-            return filename.replace('(', '_').replace(']', '_');
-        }
+    //点击编辑事件
+    $(function () {
+       $('#hide_content,#submit').hide();
+       $('#update').on('click', function () {
+           var $text = $(this).text().trim();
+           if($text == '编辑') {
+              $('.form-control').removeAttr('readonly').removeClass('only_read');
+              $('#hide_content,#submit').show();
+              $('#imgs').find('label').text(" ");
+              $('#imgs .img_dat,#imgs .img_dat img').css({
+                 width: '150px',
+                 height: '80px'
+              });
+              $('#imgs .img_dat:hover span,#imgs span').css({
+                  display: 'inline-block'
+              });
+              $(this).text('取消编辑');
+           }
+           else{
+              $('.form-control').attr('readonly','readonly').addClass('only_read');
+              $('#hide_content,#submit').hide();
+              $('#imgs').find('label').text("新闻图片：");
+              $('#imgs .img_dat,#imgs .img_dat img').css({
+                   width: '260px',
+                   height: '150px'
+              });
+              $('#imgs .img_dat:hover span,#imgs span').css({
+                   display: 'none'
+              });
+              $(this).text('编辑');
+
+           }
+       });
+     })
+
+    //点击图片删除事件
+        $(document).on('click','.img_dat',function() {
+            if(confirm('是否要删除吗？')) {
+                 $(this).remove();
+            }
+        });
+    
+    //页面初始化ajax数据请求
+    var id = "<?php echo $id?>";
+
+
+    var files;
+
+
+    $.ajax({
+       url:'handler.html',
+       type:'POST',
+       dataType:'json',
+       data:{
+           id:id,
+           requestType:'detailNews',
+       },
+       success:function(data){
+           //console.log(JSON.stringify(data));
+           //alert(data.newsInfo.src.length);
+
+           $('#title').val(data.newsInfo.title);
+           $('#description').val(data.newsInfo.description);
+           $('#content').val(data.newsInfo.content);
+           files = data.newsInfo.src;
+           console.log(files);
+           for(var i = 0;i < files.length;i ++) {
+               $('#imgs').append('<div class="img_dat"><span></span><img src="' + files[i] + '" alt=" "></div>');
+           }
+
+
+       },
+       error:function(data){
+           alert("错误：   " + JSON.stringify(data));
+       }
     });
 </script>
+
 <?php $this->_endblock();

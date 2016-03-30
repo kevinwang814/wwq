@@ -6,3 +6,4 @@
 <link rel="stylesheet" href="/css/file/fileinput.css" media="all" />
 <script src="/js/jquery-1.9.1.min.js"></script>
 <script src="/js/main.js"></script>
+<script src="/js/ajaxfileupload.js"></script>

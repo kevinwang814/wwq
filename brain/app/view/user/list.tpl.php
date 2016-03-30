@@ -41,7 +41,7 @@
                                     <th>更新时间</th>
                                     <th>操作</th>
                                 </tr>
-                                <?php if(isset($userList) && is_array($userList))
+                                <?php if(isset($userList) && is_array($userList)){
                                     $dom = '';
                                     $i = 0;
                                     foreach ($userList as $userInfo){
@@ -59,6 +59,7 @@
                                         $dom .= '</td><tr>';
                                     }
                                     echo $dom;
+                                    }
                                 ?>
                             </table>
                         </div>
@@ -80,4 +81,5 @@
         $('.menu:eq(0) .second-nav li:eq(0)').addClass('active');
     });
 </script>
-<?php $this->_endblock();
+
+<?php $this->_endblock(); ?>

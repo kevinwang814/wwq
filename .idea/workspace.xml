@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02368190-6c1d-4d27-80a0-16750bf45806" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/config/global.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/core.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/core/dispatcher.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/core/driver/mysqli.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/core/exception.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/core/model.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/core/view.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/ajaxpager.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/array.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/auth.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/cache/memcache.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/cache/redis.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/captcha.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/date.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/filesys.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/form/validate.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/google2fa.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/http.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/image.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/mail.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/misc.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/oauth/client.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/oauth/request.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/oauth/signaturemethod.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/oauth/signaturemethod/hmacsha1.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/oauth/signaturemethod/md5.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/oauth/util.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/ofeiapi.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/pager.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/phone.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/pinyin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/qrcode.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/sphinx.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/string.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/system.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/uploader.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/ext/xxtea.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/misc/font/times.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/misc/font/verdana.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/misc/pinyin/pinyin.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/tpl/301.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/tpl/404.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/tpl/500.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/tpl/exception.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/tpl/success.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Autoloader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CachedObjectStorage/APC.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CachedObjectStorage/CacheBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CachedObjectStorage/DiscISAM.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CachedObjectStorage/ICache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CachedObjectStorage/Igbinary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CachedObjectStorage/Memcache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CachedObjectStorage/Memory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CachedObjectStorage/MemoryGZip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CachedObjectStorage/MemorySerialized.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CachedObjectStorage/PHPTemp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CachedObjectStorage/SQLite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CachedObjectStorage/SQLite3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CachedObjectStorage/Wincache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CachedObjectStorageFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CalcEngine/CyclicReferenceStack.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/CalcEngine/Logger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/Database.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/DateTime.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/Engineering.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/ExceptionHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/Financial.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/FormulaParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/FormulaToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/Functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/Logical.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/LookupRef.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/MathTrig.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/Statistical.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/TextData.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/Token/Stack.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Calculation/functionlist.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Cell.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Cell/AdvancedValueBinder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Cell/DataType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Cell/DataValidation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Cell/DefaultValueBinder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Cell/Hyperlink.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Cell/IValueBinder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Chart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Chart/DataSeries.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Chart/DataSeriesValues.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Chart/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Chart/Layout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Chart/Legend.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Chart/PlotArea.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Chart/Renderer/PHP Charting Libraries.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Chart/Renderer/jpgraph.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Chart/Title.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Comment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/DocumentProperties.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/DocumentSecurity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/HashTable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/IComparable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/IOFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/NamedRange.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/CSV.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/DefaultReadFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/Excel2003XML.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/Excel2007.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/Excel2007/Chart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/Excel2007/Theme.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/Excel5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/Excel5/Escher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/Excel5/MD5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/Excel5/RC4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/Gnumeric.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/HTML.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/IReadFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/IReader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/OOCalc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Reader/SYLK.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/ReferenceHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/RichText.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/RichText/ITextElement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/RichText/Run.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/RichText/TextElement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/CodePage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/Date.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/Drawing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/Escher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/Escher/DgContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/Escher/DggContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/Escher/DggContainer/BstoreContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE/Blip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/Excel5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/File.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/Font.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/JAMA/CHANGELOG.TXT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/JAMA/CholeskyDecomposition.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/JAMA/EigenvalueDecomposition.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/JAMA/LUDecomposition.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/JAMA/Matrix.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/JAMA/QRDecomposition.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/JAMA/SingularValueDecomposition.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/JAMA/utils/Error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/JAMA/utils/Maths.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/OLE.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/OLE/ChainedBlockStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/OLE/PPS.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/OLE/PPS/File.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/OLE/PPS/Root.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/OLERead.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/PCLZip/gnu-lgpl.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/PCLZip/pclzip.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/PCLZip/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/PasswordHasher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/String.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/TimeZone.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/XMLWriter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/ZipArchive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/ZipStreamWrapper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/trend/bestFitClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/trend/exponentialBestFitClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/trend/linearBestFitClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/trend/logarithmicBestFitClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/trend/polynomialBestFitClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/trend/powerBestFitClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Shared/trend/trendClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Style.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Style/Alignment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Style/Border.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Style/Borders.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Style/Color.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Style/Conditional.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Style/Fill.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Style/Font.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Style/NumberFormat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Style/Protection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Style/Supervisor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/AutoFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/AutoFilter/Column.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/AutoFilter/Column/Rule.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/BaseDrawing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/CellIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/ColumnDimension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/Drawing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/Drawing/Shadow.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/HeaderFooter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/HeaderFooterDrawing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/MemoryDrawing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/PageMargins.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/PageSetup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/Protection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/Row.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/RowDimension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/RowIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Worksheet/SheetView.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/WorksheetIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/CSV.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel2007.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel2007/Chart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel2007/Comments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel2007/ContentTypes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel2007/DocProps.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel2007/Drawing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel2007/Rels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel2007/RelsRibbon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel2007/RelsVBA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel2007/StringTable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel2007/Style.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel2007/Theme.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel2007/Workbook.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel2007/Worksheet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel2007/WriterPart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel5/BIFFwriter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel5/Escher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel5/Font.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel5/Parser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel5/Workbook.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel5/Worksheet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Excel5/Xf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/HTML.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/IWriter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/PDF.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/PDF/Core.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/PDF/DomPDF.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/PDF/mPDF.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/Writer/PDF/tcPDF.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/bg/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/cs/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/cs/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/da/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/da/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/de/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/de/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/en/uk/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/es/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/es/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/fi/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/fi/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/fr/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/fr/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/hu/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/hu/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/it/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/it/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/nl/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/nl/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/no/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/no/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/pl/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/pl/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/pt/br/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/pt/br/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/pt/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/pt/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/ru/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/ru/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/sv/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/sv/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/tr/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/PHPExcel/locale/tr/functions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/CHANGELOG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/INSTALL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/VERSION" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/bindings/tcpdf/qrcode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/buy_joystick.png-errors.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_10.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_11.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_12.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_13.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_14.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_15.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_16.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_17.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_18.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_19.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_20.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_21.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_22.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_23.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_24.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_25.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_26.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_27.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_28.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_29.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_30.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_31.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_32.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_33.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_34.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_35.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_36.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_37.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_38.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_39.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_40.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_8.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_9.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/frame_9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_101_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_105_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_109_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_113_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_117_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_121_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_125_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_129_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_133_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_137_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_141_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_145_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_149_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_153_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_157_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_161_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_165_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_169_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_173_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_177_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_21_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_25_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_29_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_33_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_37_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_41_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_45_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_49_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_53_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_57_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_61_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_65_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_69_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_73_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_77_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_81_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_85_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_89_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_93_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_0/mask_97_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_101_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_105_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_109_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_113_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_117_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_121_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_125_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_129_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_133_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_137_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_141_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_145_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_149_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_153_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_157_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_161_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_165_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_169_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_173_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_177_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_21_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_25_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_29_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_33_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_37_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_41_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_45_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_49_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_53_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_57_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_61_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_65_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_69_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_73_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_77_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_81_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_85_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_89_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_93_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_1/mask_97_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_101_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_105_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_109_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_113_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_117_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_121_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_125_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_129_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_133_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_137_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_141_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_145_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_149_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_153_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_157_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_161_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_165_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_169_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_173_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_177_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_21_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_25_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_29_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_33_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_37_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_41_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_45_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_49_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_53_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_57_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_61_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_65_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_69_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_73_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_77_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_81_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_85_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_89_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_93_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_2/mask_97_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_101_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_105_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_109_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_113_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_117_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_121_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_125_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_129_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_133_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_137_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_141_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_145_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_149_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_153_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_157_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_161_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_165_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_169_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_173_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_177_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_21_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_25_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_29_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_33_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_37_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_41_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_45_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_49_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_53_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_57_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_61_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_65_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_69_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_73_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_77_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_81_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_85_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_89_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_93_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_3/mask_97_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_101_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_105_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_109_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_113_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_117_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_121_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_125_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_129_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_133_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_137_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_141_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_145_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_149_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_153_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_157_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_161_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_165_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_169_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_173_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_177_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_21_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_25_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_29_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_33_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_37_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_41_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_45_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_49_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_53_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_57_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_61_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_65_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_69_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_73_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_77_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_81_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_85_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_89_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_93_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_4/mask_97_4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_101_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_105_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_109_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_113_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_117_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_121_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_125_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_129_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_133_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_137_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_141_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_145_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_149_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_153_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_157_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_161_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_165_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_169_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_173_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_177_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_21_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_25_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_29_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_33_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_37_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_41_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_45_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_49_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_53_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_57_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_61_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_65_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_69_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_73_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_77_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_81_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_85_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_89_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_93_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_5/mask_97_5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_101_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_105_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_109_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_113_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_117_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_121_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_125_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_129_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_133_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_137_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_141_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_145_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_149_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_153_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_157_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_161_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_165_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_169_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_173_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_177_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_21_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_25_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_29_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_33_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_37_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_41_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_45_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_49_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_53_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_57_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_61_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_65_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_69_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_73_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_77_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_81_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_85_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_89_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_93_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_6/mask_97_6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_101_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_105_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_109_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_113_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_117_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_121_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_125_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_129_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_133_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_137_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_141_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_145_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_149_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_153_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_157_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_161_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_165_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_169_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_173_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_177_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_21_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_25_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_29_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_33_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_37_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_41_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_45_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_49_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_53_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_57_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_61_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_65_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_69_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_73_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_77_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_81_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_85_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_89_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_93_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/cache/mask_7/mask_97_7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/phpqrcode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/qrbitstream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/qrconfig.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/qrconst.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/qrencode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/qrimage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/qrinput.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/qrlib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/qrmask.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/qrrscode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/qrspec.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/qrsplit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/qrtools.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/temp/test.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/temp/test9d9859ebb4e825179a00a36b2d734ca0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/temp/testde39d755a09ede28638e42452c658e62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/tools/merge.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/tools/merge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/tools/merge.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/tools/merged_config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/phpqrcode/tools/merged_header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_framework/util/sphinxapi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/config/main.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/dispatcher/site.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/extend/admin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/extend/user.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/module/admin/captcha.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/module/admin/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/module/admin/logout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/module/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/module/news/add.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/module/news/detail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/module/news/list.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/module/user/add.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/module/user/detail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/module/user/handler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/module/user/list.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/module/user/update.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/_element/footer.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/_element/head.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/_element/header.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/_element/leftmenu.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/_layout/default.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/_public/404.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/_public/error.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/_public/success.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/admin/login.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/index.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/news/add.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/news/detail.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/news/list.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/user/add.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/user/detail.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/app/view/user/list.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/css/file/fileinput.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/css/file/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/dist/css/sb-admin-2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/dist/css/timeline.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/dist/js/sb-admin-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/dist/js/view-image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/fonts/icomoon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/fonts/icomoon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/fonts/icomoon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/fonts/icomoon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/adm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/avtar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/farm_img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/farm_img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/farm_img4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/farm_img5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/file/loading-sm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/file/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/fram_img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/ico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/intro.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/key.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/login_11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/login_14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/login_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/login_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/login_9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/loginbg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/main-bac.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/pass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/sbg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/img/spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/js/file/fileinput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/js/file/fileinput_locale_zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/js/jquery-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/less/add.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/less/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/less/login.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/less/main.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brain/less/movice.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/helper/incr.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/helper/mertoplat.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/helper/notification.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/helper/onlynumber.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/helper/plattomer.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/helper/sms.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/model/admin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/model/user.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/util/common.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/util/mer2PlatUtil.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/util/plat2MerUtil.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/private/private.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/app/config/main.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/app/dispatcher/site.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/app/misc/tool.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/app/module/api/doc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/app/module/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/app/module/misc/download/app.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/app/view/_element/footer.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/app/view/_element/head.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/app/view/_element/header.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/app/view/_layout/default.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/app/view/_public/404.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/app/view/api/doc.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/app/view/index.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/app/view/misc/download/ios.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/app/view/misc/download/wx.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/activity.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/arrow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/avatar01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/bg01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/bg02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/bg03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/bg04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/box8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/gold_coin_exchange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/goods_describe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/ico_android.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/ico_apple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/ico_close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/ico_mail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/ico_marker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/ico_phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/ico_qq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/ico_qq2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/ico_sinaweibo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/ico_sinaweibo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/ico_wechat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/ico_wechat2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/join_us_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/logo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/logo3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/logo4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/perfume.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/pic01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/pic02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/pic03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/pic04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/pic05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/pic06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/pic07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/pic08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/pic09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/pic10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/pic11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/publicity.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/qr_app.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/qr_sinaweibo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/qr_wechat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/rocket.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/round01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/round02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/round03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/tag01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/tag02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/tag03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/tag04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/tag05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/tag06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/tag07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/tag08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/title_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/title_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/title_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/title_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/title_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/title_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/title_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/watch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/img/wx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/html5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/jquery-1.11.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/respond.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/zarkfx/fx/center.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/zarkfx/fx/scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/zarkfx/fx/scrollanimate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/zarkfx/fx/staytop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/zarkfx/fx/switch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/zarkfx/fx/toggle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/zarkfx/static/js/center.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/zarkfx/static/js/jscrollpane.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/zarkfx/static/js/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/zarkfx/static/js/scrollstop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/js/zarkfx/zarkfx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.php" afterPath="" />
+    </list>
+    <ignored path="wwq.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="wwq" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../../wwq-2/brain/css/main.css" />
+        <option value="$PROJECT_DIR$/brain/app/view/news/add.tpl.php" />
+        <option value="$PROJECT_DIR$/brain/app/module/news/handler.php" />
+        <option value="$PROJECT_DIR$/brain/css/main.css" />
+        <option value="$PROJECT_DIR$/brain/app/view/news/detail.tpl.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="827" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wwq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02368190-6c1d-4d27-80a0-16750bf45806" name="Default" comment="" />
+      <created>1459241390067</created>
+      <option name="number" value="Default" />
+      <updated>1459241390067</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="827" extended-state="7" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/brain/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="510" column="25" selection-start-line="510" selection-start-column="0" selection-end-line="510" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/view/news/detail.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/module/news/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/module/news/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/view/news/add.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="7" selection-start-line="82" selection-start-column="5" selection-end-line="87" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/module/news/handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="505" column="1" selection-start-line="505" selection-start-column="1" selection-end-line="505" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/view/news/detail.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/module/news/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/module/news/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/view/news/add.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="22" selection-start-line="91" selection-start-column="8" selection-end-line="99" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/module/news/handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/img/add.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/img/delete.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../wwq-2/brain/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.555555">
+          <caret line="505" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="505" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/module/news/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/module/news/handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="510" column="25" selection-start-line="510" selection-start-column="0" selection-end-line="510" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/module/news/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/view/news/add.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="7" selection-start-line="82" selection-start-column="5" selection-end-line="87" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/view/news/detail.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="53" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

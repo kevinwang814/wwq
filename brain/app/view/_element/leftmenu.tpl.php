@@ -28,19 +28,19 @@
         <li class="menu">
             <a href="javascript:void(0)"  class="menu-content">
                 <i class="ico movie"></i>
-                新闻动态管理
+                新闻管理
                 <i class="add"></i>
                 <span></span>
             </a>
             <ul class="second-nav">
                 <li class="second-nav-list">
                     <a href="/news/list.html" class="detail">
-                        所有新闻动态
+                        所有新闻
                     </a>
                 </li>
                 <li class="second-nav-list">
                     <a href="/news/add.html" class="detail">
-                        添加新闻动态
+                        添加新闻
                     </a>
                 </li>
             </ul>
@@ -48,19 +48,19 @@
         <li class="menu">
             <a href="javascript:void(0)" class="menu-content">
                 <i class="ico case"></i>
-                个人农场管理
+                农场管理
                 <i class="add"></i>
                 <span></span>
             </a>
             <ul class="second-nav">
                 <li class="second-nav-list">
-                    <a href="个人农场管理.html" class="detail">
-                        所有个人农场
+                    <a href="/farm/list.html" class="detail">
+                        所有农场
                     </a>
                 </li>
                 <li class="second-nav-list">
-                    <a href="添加个人农场.html" class="detail">
-                        添加个人农场
+                    <a href="/farm/add.html" class="detail">
+                        添加农场
                     </a>
                 </li>
             </ul>
@@ -68,19 +68,19 @@
         <li class="menu">
             <a href="javascript:void(0)"  class="menu-content">
                 <i class="ico auto"></i>
-                种植培训管理
+                种植培训
                 <i class="add"></i>
                 <span></span>
             </a>
             <ul class="second-nav">
                 <li class="second-nav-list">
-                    <a href="培训管理.html" class="detail">
-                        所有种植培训内容
+                    <a href="/training/list.html" class="detail">
+                        所有培训
                     </a>
                 </li>
                 <li class="second-nav-list">
-                    <a href="添加培训内容.html" class="detail">
-                        添加种植培训内容
+                    <a href="/training/add.html" class="detail">
+                        添加培训
                     </a>
                 </li>
             </ul>
@@ -94,58 +94,32 @@
             </a>
             <ul class="second-nav">
                 <li class="second-nav-list">
-                    <a href="javascript:void(0)">
-                        蔬菜种子
-                        <i class="add"></i>
+                    <a href="/seed/list.html" class="detail">
+                        种子列表
                     </a>
-                    <ul class="three-nav">
-                        <li class="three-nav-list">
-                            <a href="种子管理.html" class="detail">
-                                查看所有品种
-                            </a>
-                        </li>
-                        <li class="three-nav-list">
-                            <a href="添加种子.html" class="detail">
-                                添加新品种
-                            </a>
-                        </li>
-                    </ul>
                 </li>
                 <li class="second-nav-list">
-                    <a href="javascript:void(0)">
-                        水果种子
-                        <i class="add"></i>
+                    <a href="/seed/add.html" class="detail">
+                        添加种子
                     </a>
-                    <ul class="three-nav">
-                        <li class="three-nav-list">
-                            <a href="种子管理.html" class="detail">
-                                查看所有品种
-                            </a>
-                        </li>
-                        <li class="three-nav-list">
-                            <a href="添加种子.html" class="detail">
-                                添加新品种
-                            </a>
-                        </li>
-                    </ul>
                 </li>
             </ul>
         </li>
         <li class="menu">
             <a href="javascript:void(0)" class="menu-content">
                 <i class="ico product"></i>
-                种植工具管理
+                工具管理
                 <i class="add"></i>
                 <span></span>
             </a>
             <ul class="second-nav">
                 <li class="second-nav-list">
-                    <a href="工具管理.html" class="detail">
-                        所有种植工具
+                    <a href="/tool/list.html" class="detail">
+                        工具列表
                     </a>
                 </li>
                 <li class="second-nav-list">
-                    <a href="添加工具.html" class="detail">
+                    <a href="/tool/add.html" class="detail">
                         添加工具
                     </a>
                 </li>
@@ -160,33 +134,13 @@
             </a>
             <ul class="second-nav">
                 <li class="second-nav-list">
-                    <a href="案例管理.html" class="detail">
-                        所有案例
+                    <a href="/case/list.html" class="detail">
+                        案例列表
                     </a>
                 </li>
                 <li class="second-nav-list">
-                    <a href="添加案例.html" class="detail">
+                    <a href="/case/add.html" class="detail">
                         添加案例
-                    </a>
-                </li>
-            </ul>
-        </li>
-        <li class="menu">
-            <a href="javascript:void(0)" class="menu-content">
-                <i class="ico user"></i>
-                图片管理
-                <i class="add"></i>
-                <span></span>
-            </a>
-            <ul class="second-nav">
-                <li class="second-nav-list">
-                    <a href="图片管理.html" class="detail">
-                        所有图片
-                    </a>
-                </li>
-                <li class="second-nav-list">
-                    <a href="添加农场图片.html" class="detail">
-                        添加图片
                     </a>
                 </li>
             </ul>

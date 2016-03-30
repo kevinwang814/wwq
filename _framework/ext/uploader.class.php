@@ -21,7 +21,7 @@ class Ext_Uploader
         self::$_init = true;
 
         foreach ($_FILES as $field_name => $postinfo)
-        {
+        {    
             if (!isset($postinfo['error'])) continue;
             if (is_array($postinfo['error']))
             {
@@ -30,7 +30,7 @@ class Ext_Uploader
                 {
                     if ($error == UPLOAD_ERR_OK)
                     {
-                        $file = new Ext_Uploader_File($postinfo, $field_name, $offset);
+                        $file = new Ext_Uploader_File($postinfo, $field_name, $offset); 
                         self::$_files["{$field_name}{$offset}"] = $file;
                     }
                 }

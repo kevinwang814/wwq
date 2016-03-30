@@ -1,3 +1,5 @@
 <?php
+    $id = getv_t('id');
     $view = Core_View::getInstance();
-    $view->display('news/update');
+    $view->assign('id',$id);
+    $view->display('news/detail');
