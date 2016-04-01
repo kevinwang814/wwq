@@ -52,7 +52,7 @@
                                         $dom .= '<td>'.$userInfo['email'].'</td>';
                                         $dom .= '<td>'.$userInfo['update_time'].'</td>';
                                         $dom .= '<td>';
-                                        $dom .= '<button type="button" class="btn btn-primary update" onclick="window.location.href=\''.U('user/update').'\'">';
+                                        $dom .= '<button type="button" class="btn btn-primary update" onclick="window.location.href=\''.U('user/detail',array('id'=>$userInfo['id'])).'\'">';
                                         $dom .= '<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>修改</button>';
                                         $dom .= '<button type="button" class="btn btn-danger delete" onclick="window.location.href=>';
                                         $dom .= '<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>删除</button>';

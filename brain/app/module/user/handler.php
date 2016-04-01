@@ -26,6 +26,21 @@
                 R(U('user/list'));
             }
             break;
+         
+        //根据id获取新闻详情
+        case 'detailUser':
+            $id = postv_t('id');
+            $userInfo = importExtend('User')->getInfo($id);
+            //file_put_contents('/vagrant/data.log', json_encode($userInfo)."\r\n",FILE_APPEND);
+            if($userInfo){
+                $responseData['message'] = "success";
+                $responseData['$userInfo'] = $userInfo;
+                Ext_Misc::api_output($responseData);
+            }else{
+                Ext_Misc::api_output($responseData);
+            }
+            break;
+            
         default:
             break;
     }
