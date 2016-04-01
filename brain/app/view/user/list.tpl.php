@@ -54,7 +54,7 @@
                                         $dom .= '<td>';
                                         $dom .= '<button type="button" class="btn btn-primary update" onclick="window.location.href=\''.U('user/detail',array('id'=>$userInfo['id'])).'\'">';
                                         $dom .= '<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>修改</button>';
-                                        $dom .= '<button type="button" class="btn btn-danger delete" onclick="window.location.href=>';
+                                        $dom .= '<button type="button" class="btn btn-danger delete deleteUser" user-id='.$userInfo['id'].'>';
                                         $dom .= '<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>删除</button>';
                                         $dom .= '</td><tr>';
                                     }
@@ -79,6 +79,29 @@
         $('.menu:eq(0) .menu-content').addClass('active');
         $('.menu:eq(0) .menu-content span').addClass('cur');
         $('.menu:eq(0) .second-nav li:eq(0)').addClass('active');
+    });
+    
+    
+    
+    $(document).on('click','.deleteUser',function(){
+        var userId = $(this).attr('user-id');
+        if(window.confirm('删除将是不可修复的，确定删除?')){
+            $.ajax({
+                url:'handler.html',
+                type:'POST',
+                dataType:'json',
+                data:{
+                    userId:userId,
+                    requestType:'deleteUser'
+                },
+                success:function(data,status,xhr){
+                    if(data.status == 'success'){
+                        alert("操作成功!");
+                        window.location.href = '/user/list.html';
+                    }
+                },
+            });
+        }
     });
 </script>
 

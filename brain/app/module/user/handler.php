@@ -26,7 +26,33 @@
                 R(U('user/list'));
             }
             break;
-         
+            
+        //删除用户
+        case 'deleteUser':
+            $user_id = postv_t('userId');
+            $fieldData = array(
+                'status' => 'disabled',
+            );
+            $time = time();
+            $ret = false;
+            $userModel = importModel('User');
+            if($user_id != ''){
+                $cond = array(
+                    'id'=>$user_id,
+                );
+                $fieldData['update_time'] = $time;
+                if($userModel->updateBy($cond, $fieldData)){
+                    $ret = true;
+                }
+            }
+            if($ret){
+                $responseData['status'] = "success";
+                Ext_Misc::api_output($responseData);
+            }else{
+                Ext_Misc::api_output($responseData);
+            }
+            break;
+            
         //根据id获取新闻详情
         case 'detailUser':
             $id = postv_t('id');

@@ -101,6 +101,27 @@
            }
        });
      })
+     
+     
+    //详情页面新增图片(这部分布局有问题，你处理一下)
+    var fileType = new Array('image/png','image/jpeg','image/gif','image/bmp');
+    $(document).on("change",'#newsImage',function(){
+        var file = $(this).get(0).files[0];
+        var type = file['type'];
+        var fileElementId = $(this).attr('id');
+        if($.inArray(type,fileType) != -1){
+            $.ajaxFileUpload({
+                url:'handler.html',
+                secureuri:false,
+                fileElementId:fileElementId,
+                dataType:'json',
+                success:function(data,status){
+                    $('.img_add').append('<div class="img_dat"><span></span><img src="' + data.src + '" alt=" "></div>');
+                }
+            });
+        }
+    
+    });
 
     //点击图片删除事件
         $(document).on('click','.img_dat',function() {
@@ -127,12 +148,12 @@
        success:function(data){
            //console.log(JSON.stringify(data));
            //alert(data.newsInfo.src.length);
-
+           //存储newsid到确认修改按钮里面
+           $('#submit').attr('news-id',data.newsInfo.id);
            $('#title').val(data.newsInfo.title);
            $('#description').val(data.newsInfo.description);
            $('#content').val(data.newsInfo.content);
            files = data.newsInfo.src;
-           console.log(files);
            for(var i = 0;i < files.length;i ++) {
                $('#imgs').append('<div class="img_dat"><span></span><img src="' + files[i] + '" alt=" "></div>');
            }
@@ -143,6 +164,48 @@
            alert("错误：   " + JSON.stringify(data));
        }
     });
+    
+    
+    
+    //saveUpdate
+    $(document).on('click','#submit',function(){
+        var title = $.trim($('#title').val());
+        var description = $.trim($('#description').val());
+        var content = $.trim($('#content').val());
+        var img = $('.img_add .img_dat img');
+        var imgStr = '';
+        for(var i=0; i< img.length;i++){
+            imgStr += img.eq(i).attr('src')+",";
+        }
+        //alert(imgStr);
+        if(title != '' && description != '' && content != '' && imgStr != ''){
+            $.ajax({
+                url:'handler.html',
+                type:'POST',
+                dataType:'json',
+                data:{
+                    title:title,
+                    description:description,
+                    content:content,
+                    imgStr:imgStr,
+                    requestType:'updateNews'
+                },
+                success:function(data){
+                    if(data.message == 'success'){
+                        alert("操作成功!");
+                        window.location.href = '/news/list.html';
+                    }
+                },
+                error:function(data){
+                    alert(JSON.stringify(data));
+                    alert("网络连接错误!");
+                }
+            });
+        }else {
+            alert("输入信息有误，请重新填写");
+        }
+    });
+    
 </script>
 
 <?php $this->_endblock();

@@ -74,14 +74,15 @@
             }else{
                 Ext_Misc::api_output($responseData);   
             }
+            break;
         //根据id获取新闻详情
         case 'detailNews':
             $id = postv_t('id');
-            $userInfo = importExtend('User')->getInfo($id);
+            $newsInfo = importExtend('News')->getInfo($id);
             //file_put_contents('/vagrant/data.log', json_encode($newsInfo)."\r\n",FILE_APPEND);
-            if($userInfo){
+            if($newsInfo){
                 $responseData['message'] = "success";
-                $responseData['userInfo'] = $userInfo;
+                $responseData['newsInfo'] = $newsInfo;
                 Ext_Misc::api_output($responseData);
             }else{
                 Ext_Misc::api_output($responseData);
