@@ -67,4 +67,24 @@
 
             return TRUE;
         }
+        
+        public function getList($option){
+            $sql = 'select id,title,update_time from training where status="'.$option['status'].'" order by '.$option['orderby'].' limit '.$option['offset'].','.$option['limit'];
+            $trainingList = importModel('Training')->query($sql)->findAll();
+            if(!$trainingList){
+                return null;
+            }else{
+                return $this->formatList($trainingList);
+            }
+        }
+        
+        public function formatList($trainingList){
+            foreach ($trainingList as &$trainingInfo){
+                $trainingInfo['update_time'] = date('Y-m-d H:i:s',$trainingInfo['update_time']);
+            }
+            return $trainingList;
+        }
+        
+        
+        
     }

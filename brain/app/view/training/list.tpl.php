@@ -37,155 +37,35 @@
                             <tr class="active">
                                 <th>培训id</th>
                                 <th>培训标题</th>
-                                <!--<th>新闻图片地址</th>-->
-                                <th>培训上传时间</th>
+                                <th>培训更新时间</th>
                                 <th>培训管理</th>
                             </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>
-                                    这个夏天，阳台种菜浇水问题要注意这些
-                                </td>
-                                <!--<td>F://back_stage/img/1.jpg</td>-->
-                                <td>2016/1/18</td>
-                                <td>
-                                    <button type="button" class="btn btn-primary update" onclick="window.location.href='修改培训内容.html'">
-                                        <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                                        修改
-                                    </button>
-                                    <button type="button" class="btn btn-danger delete" onclick="window.location.href='#'">
-                                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-                                        删除
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>
-                                    家庭阳台菜园设计：不同阳台面积大小，可种植哪些蔬菜？
-                                </td>
-                                <!--<td>F://back_stage/img/2.jpg</td>-->
-                                <td>2016/1/5</td>
-                                <td>
-                                    <button type="button" class="btn btn-primary update" onclick="window.location.href='修改培训内容.html'">
-                                        <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                                        修改
-                                    </button>
-                                    <button type="button" class="btn btn-danger" onclick="window.location.href='#'">
-                                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-                                        删除
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>
-                                    史上最全的阳台种菜好处大集合，值得收藏！
-                                </td>
-                                <!--<td>F://back_stage/img/3.jpg</td>-->
-                                <td>2016/1/1</td>
-                                <td>
-                                    <button type="button" class="btn btn-primary update" onclick="window.location.href='修改培训内容.html'">
-                                        <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                                        修改
-                                    </button>
-                                    <button type="button" class="btn btn-danger" onclick="window.location.href='#'">
-                                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-                                        删除
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>
-                                    八、九月份阳台适合种植的蔬菜品种已整理好了，以供参考！
-                                </td>
-                                <!--<td>F://back_stage/img/4.jpg</td>-->
-                                <td>2016/1/18</td>
-                                <td>
-                                    <button type="button" class="btn btn-primary update" onclick="window.location.href='修改培训内容.html'">
-                                        <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                                        修改
-                                    </button>
-                                    <button type="button" class="btn btn-danger delete" onclick="window.location.href='#'">
-                                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-                                        删除
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>
-                                    屋顶种菜到底会不会影响风水，真相来了
-                                </td>
-                                <!--<td>F://back_stage/img/5.jpg</td>-->
-                                <td>2016/1/5</td>
-                                <td>
-                                    <button type="button" class="btn btn-primary update" onclick="window.location.href='修改培训内容.html'">
-                                        <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                                        修改
-                                    </button>
-                                    <button type="button" class="btn btn-danger" onclick="window.location.href='#'">
-                                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-                                        删除
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>
-                                    屋顶菜园设计施工前要三思，这些细节需注意
-                                </td>
-                                <!--<td>F://back_stage/img/6.jpg</td>-->
-                                <td>2016/1/1</td>
-                                <td>
-                                    <button type="button" class="btn btn-primary update" onclick="window.location.href='修改培训内容.html'">
-                                        <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                                        修改
-                                    </button>
-                                    <button type="button" class="btn btn-danger" onclick="window.location.href='#'">
-                                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-                                        删除
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>
-                                    阳台菜园用土不注意，健康安全出问题
-                                </td>
-                                <!--<td>F://back_stage/img/7.jpg</td>-->
-                                <td>2016/1/18</td>
-                                <td>
-                                    <button type="button" class="btn btn-primary update" onclick="window.location.href='修改培训内容.html'">
-                                        <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                                        修改
-                                    </button>
-                                    <button type="button" class="btn btn-danger delete" onclick="window.location.href='#'">
-                                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-                                        删除
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>
-                                    一分钟掌握阳台种菜施肥五个关键点
-                                </td>
-                                <!--<td>F://back_stage/img/8.jpg</td>-->
-                                <td>2016/1/5</td>
-                                <td>
-                                    <button type="button" class="btn btn-primary update" onclick="window.location.href='修改培训内容.html'">
-                                        <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                                        修改
-                                    </button>
-                                    <button type="button" class="btn btn-danger" onclick="window.location.href='#'">
-                                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-                                        删除
-                                    </button>
-                                </td>
-                            </tr>
+                            <?php
+                                if(isset($trainingList) && is_array($trainingList) && isset($page) && isset($page_size)){
+                                    $dom = '';
+                                    $i = ($page-1)*$page_size+1;
+                                    foreach ($trainingList as $trainingInfo) {
+
+                                        $dom .= '<tr>';
+                                        $dom .= '<td>'.$i.'</td>';
+                                        $dom .= '<td>'.$trainingInfo['title'].'</td>';
+                                        $dom .= '<td>'.$trainingInfo['update_time'].'</td>';
+                                        $dom .= '<td><button type="button" class="btn btn-primary update" onclick="window.location.href=\''.U('training/detail',array('id'=>$trainingInfo['id'])).'\'">';
+                                        $dom .= '<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>修改</button>';
+                                        $dom .= '<button type="button" class="btn btn-danger delete deleteTraining" training-id='.$trainingInfo['id'].'>';
+                                        $dom .= '<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>删除';
+                                        $dom .= '</button></td>';
+                                        $dom .= '</tr>';
+                                        $i++;
+                                    }
+                                    echo $dom;
+                                }
+                            ?>
                         </table>
+                        <?php echo "<div style='font-size:13px;color:#8D8D8D'>共有<span style='color:red'>".$trainingCount."</span>条数据</div>"?>
+                        <div class="datatable-pagination">
+                            <?php echo $pager;?>
+                        </div>
                     </div>
                 </div>
             </div>

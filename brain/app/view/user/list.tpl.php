@@ -41,9 +41,9 @@
                                     <th>更新时间</th>
                                     <th>操作</th>
                                 </tr>
-                                <?php if(isset($userList) && is_array($userList)){
+                                <?php if(isset($userList) && is_array($userList) && isset($page) && isset($page_size)){
                                     $dom = '';
-                                    $i = 0;
+                                    $i = ($page-1)*$page_size+1;
                                     foreach ($userList as $userInfo){
                                         $i++;
                                         $dom .= '<tr><td>'.$i.'</td>';
@@ -62,6 +62,10 @@
                                     }
                                 ?>
                             </table>
+                            <?php echo "<div style='font-size:13px;color:#8D8D8D'>共有<span style='color:red'>".$userCount."</span>条数据</div>"?>
+                            <div class="datatable-pagination">
+                                <?php echo $pager;?>
+                            </div>
                         </div>
                     </div>
                 </div>

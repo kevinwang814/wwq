@@ -40,9 +40,9 @@
                                     <th>新闻管理</th>
                                 </tr>
                                 <?php
-                                    if(isset($newsList) && is_array($newsList)){
+                                    if(isset($newsList) && is_array($newsList) && isset($page) && isset($page_size)){
                                         $dom = '';
-                                        $i = 1;
+                                        $i = ($page-1)*$page_size+1;
                                         foreach ($newsList as $newsInfo) {
  
                                             $dom .= '<tr>';
@@ -61,6 +61,10 @@
                                     }
                                 ?>
                             </table>
+                            <?php echo "<div style='font-size:13px;color:#8D8D8D'>共有<span style='color:red'>".$newsCount."</span>条数据</div>"?>
+                            <div class="datatable-pagination">
+                                <?php echo $pager;?>
+                            </div>
                         </div>
                     </div>
                 </div>
