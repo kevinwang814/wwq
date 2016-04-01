@@ -136,12 +136,13 @@ class Ext_Misc
             {
                 if(!headers_sent())
                 {
+                    
                     header('Content-Type:text/html; charset=utf8');
                 }
                 dump($data);
             }
             else
-            {
+            {   
                 header('Content-Type:application/json;charset=utf8');
             }
             

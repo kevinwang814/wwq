@@ -3,7 +3,7 @@
     <div id="main-content">
         <!-- 培训管理内容【开始】-->
         <section id="movie-content" style="margin-top: 50px">
-            <form class="form-horizontal" action="#" method="post">
+            <div class="form-horizontal">
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">培训标题：</label>
                     <div class="col-md-4 col-xs-4">
@@ -36,10 +36,10 @@
                 </div>
                 <div class="form-group">
                     <div class="col-md-offset-2 col-xs-offset-2 col-md-4 col-xs-4">
-                        <button id="submit" class="btn btn-primary">确 认 添 加</button>
+                        <button id="submitData" class="btn btn-primary">确 认 添 加</button>
                     </div>
                 </div>
-            </form>
+            </div>
         </section>
         <!-- 培训管理内容【结束】-->
     </div>
@@ -83,7 +83,7 @@
             }
         });
 
-    $(document).on('click','#submit',function(){
+    $(document).on('click','#submitData',function(){
             var title = $.trim($('#title').val());
             var description = $.trim($('#description').val());
             var content = $.trim($('#content').val());
@@ -111,7 +111,7 @@
                         }
                     },
                     error:function(data){
-                        alert(JSON.stringify(data));
+                        alert("网络连接错误");
                     }
                 });
             }else {

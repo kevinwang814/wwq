@@ -10,7 +10,7 @@
                     <div class="row">
                         <h3 class="panel-title col-md-1 col-xs-3 col-sm-3" >培训管理</h3>
                         <div class="col-md-2 col-xs-3 col-sm-3">
-                            <button type="button" class="btn btn-default" onclick="window.location.href='添加培训内容.html'">
+                            <button type="button" class="btn btn-default" onclick="window.location.href='/training/add.html'">
                                 <span class="glyphicon glyphicon-plus"></span>
                                 添加培训内容
                             </button>

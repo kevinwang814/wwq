@@ -444,7 +444,6 @@ function LOGS($log, $path_index='default') {
     $path = C('log_path');
     
     $log_path = isset($path[$path_index]) ? $path[$path_index] : '';
-    
     if (!$log_path) {
         return FALSE;
     }
