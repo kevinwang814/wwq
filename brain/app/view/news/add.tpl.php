@@ -74,7 +74,6 @@
                 fileElementId:fileElementId,
                 dataType:'json',
                 success:function(data,status){
-                    console.log(data);
                     $('.img_add').append('<div class="img_dat"><span></span><img src="' + data.src + '" alt=" "></div>');
                 }
             });
