@@ -9,7 +9,7 @@ class Extend_User {
      * @return array or NULL 返回 User 信息
      */
     public function getInfo($id) {
-        $sql = "select id,name,mobile_num,email from user";
+        $sql = "select id,name,mobile_num,email from user where id=".$id;
         $userInfo = importModel('User')->query($sql)->find();
         if (!$userInfo) {
             return NULL;
