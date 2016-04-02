@@ -89,6 +89,38 @@
                 Ext_Misc::api_output($responseData);
             }
             break;
+        case 'updateNews':
+            $title = postv_t('title');
+            $description = postv_t('description');
+            $content = postv_t('content');
+            $imgStr = substr(postv_t('imgStr'), 0,-1);
+            $imgArr = explode(',',$imgStr);
+            $hashStr = '';
+            foreach ($imgArr as $imgSrc) {
+                $imgSrcArr = explode('/',$imgSrc);
+                $hashStr .= substr($imgSrcArr[count($imgSrcArr)-1],0,32).',';
+            }
+            $hashStr = substr($hashStr,0,-1);
+            $time = time();
+            $fieldData = array(
+                'title' => $title,
+                'description' => $description,
+                'content' => $content,
+                'hash' => $hashStr,
+                'update_time' => $time,
+                'status' => 'enabled',
+            );
+            $ret = false;
+            if (importModel('News')->create($fieldData)) {
+                $ret = true;
+            }
+            if($ret){
+                $responseData['message'] = "success";
+                Ext_Misc::api_output($responseData);
+            }else{
+                Ext_Misc::api_output($responseData);
+            }
+            break;
         default:
             break;
     }
