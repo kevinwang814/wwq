@@ -3,45 +3,48 @@
     <div id="main-content">
         <!-- 新闻动态管理内容【开始】-->
         <section id="movie-content" style="margin-top: 50px">
+
+             <div style="display: block;width: 100%;margin-bottom: 20px">
+                  <button type="button" class="btn btn-primary" id="update">编辑<btton>
+             </div>
+
             <form class="form-horizontal" action="#" method="post">
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">培训标题：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <input type="text" class="form-control" value="阳台菜园用土不注意，健康安全出问题">
+                    <div class="col-md-6 col-xs-6">
+                        <input type="text" id="title" class="form-control only_read"  readonly>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">培训描述：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <textarea class="form-control" style="height: 200px;overflow-y: scroll">
-                           随着食品安全问题的频频曝光，想作个“都市农夫”的心愿，在越来越多的人们心中萌生。利用自己阳台、屋顶开辟家庭菜园，自己种得开心，家人吃得放心。
+                    <div class="col-md-6 col-xs-6">
+                        <textarea class="form-control only_read" id="description" style="height: auto;" readonly>
                         </textarea>
                     </div>
                 </div>
                 <div class="form-group">
                     <label  class="col-sm-2 control-label">培训内容：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <textarea class="form-control" style="height: 200px;overflow-y: scroll">
-                            随着食品安全问题的频频曝光，想作个“都市农夫”的心愿，在越来越多的人们心中萌生。利用自己阳台、屋顶开辟家庭菜园，自己种得开心，家人吃得放心。
-                            但是种菜不是随便找点土，弄点种子就能成事的。小编有的时候看到有些市民会到公园或郊外挖点绿化土回去种菜，小编想问的是，这些土安全吗？
-                        </textarea>
+                    <div class="col-md-6 col-xs-6">
+                         <textarea class="form-control only_read" id="content" style="height: auto;" readonly>
+                         </textarea>
                     </div>
                 </div>
-                <div class="form-group">
-                    <label class="col-md-2 col-xs-2  control-label">原始培训图片：</label>
-                    <img src="img/farm_img2.jpg" class="col-md-4 col-xs-4" alt="img">
+
+                <div class="form-group" id="hide_content">
+                     <label class="col-md-2 col-xs-2  control-label">修改培训图片：</label>
+                     <div class="col-md-10 col-xs-10 img_add text-left">
+                          <!-- 上传图片【start】-->
+                          <div class="rewri_file">
+                               <input id="newsImage" name="newsImage" type="file" />
+                               <span></span>
+                          </div>
+                     </div>
                 </div>
-                <div class="form-group">
-                    <label class="col-md-2 col-xs-2  control-label">修改培训图片：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <!-- 上传图片【start】-->
-                        <input id="file-1" type="file" multiple class="file" data-overwrite-initial="false" data-max-file-count="1">
-                        <!--
-                           data-max-file-count="2" 设置最多上传数量
-                        -->
-                        <!-- 上传图片【end】-->
-                    </div>
+                <div class="form-group text-left" id="imgs">
+                     <label class="col-md-2 col-xs-2  control-label" >培训图片：</label>
                 </div>
+
+                
                 <div class="form-group">
                     <div class="col-md-offset-2 col-xs-offset-2 col-md-4 col-xs-4">
                         <button type="submit" class="btn btn-primary">确 认 修 改</button>
@@ -71,27 +74,14 @@
            if($text == '编辑') {
               $('.form-control').removeAttr('readonly').removeClass('only_read');
               $('#hide_content,#submit').show();
-              $('#imgs').find('label').text(" ");
-              $('#imgs .img_dat,#imgs .img_dat img').css({
-                 width: '150px',
-                 height: '80px'
-              });
-              $('#imgs .img_dat:hover span,#imgs span').css({
-                  display: 'inline-block'
-              });
+              $('#imgs .img_dat').clone().appendTo('.img_add');
+              $('#imgs').hide();
               $(this).text('取消编辑');
            }
            else{
               $('.form-control').attr('readonly','readonly').addClass('only_read');
               $('#hide_content,#submit').hide();
-              $('#imgs').find('label').text("新闻图片：");
-              $('#imgs .img_dat,#imgs .img_dat img').css({
-                   width: '260px',
-                   height: '150px'
-              });
-              $('#imgs .img_dat:hover span,#imgs span').css({
-                   display: 'none'
-              });
+              $('#imgs').show();
               $(this).text('编辑');
 
            }

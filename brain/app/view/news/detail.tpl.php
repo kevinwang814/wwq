@@ -18,14 +18,14 @@
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">新闻描述：</label>
                     <div class="col-md-6 col-xs-6">
-                        <textarea class="form-control only_read" id="description" style="height: 200px;overflow-y: scroll" readonly>
+                        <textarea class="form-control only_read" id="description" style="height: auto;" readonly>
                         </textarea>
                     </div>
                 </div>
                 <div class="form-group">
                     <label  class="col-sm-2 control-label">新闻内容：</label>
                     <div class="col-md-6 col-xs-6">
-                        <textarea class="form-control only_read" id="content" style="height: 200px;overflow-y: scroll" readonly>
+                        <textarea class="form-control only_read" id="content" style="height: auto;" readonly>
                         </textarea>
                     </div>
                 </div>
@@ -75,19 +75,26 @@
            if($text == '编辑') {
               $('.form-control').removeAttr('readonly').removeClass('only_read');
               $('#hide_content,#submit').show();
-              $('#imgs').find('label').text(" ");
+
+              /*$('#imgs').find('label').text(" ");
               $('#imgs .img_dat,#imgs .img_dat img').css({
                  width: '150px',
                  height: '80px'
               });
               $('#imgs .img_dat:hover span,#imgs span').css({
                   display: 'inline-block'
-              });
+              });*/
+
+              $('#imgs .img_dat').clone().appendTo('.img_add');
+              $('#imgs').hide();
+
               $(this).text('取消编辑');
            }
            else{
               $('.form-control').attr('readonly','readonly').addClass('only_read');
               $('#hide_content,#submit').hide();
+
+               /*
               $('#imgs').find('label').text("新闻图片：");
               $('#imgs .img_dat,#imgs .img_dat img').css({
                    width: '260px',
@@ -96,6 +103,10 @@
               $('#imgs .img_dat:hover span,#imgs span').css({
                    display: 'none'
               });
+              */
+
+              $('#imgs').show();
+
               $(this).text('编辑');
 
            }

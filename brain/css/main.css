@@ -497,6 +497,13 @@ label {
   border:none;
   background: none;
   outline: none;
+
+  overflow:auto;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  border-style:solid;
+
+  border-color:#FFFFFF
 }
 .only_read[disabled], .form-control[readonly], fieldset[disabled] .form-control {
   background: #fff;

@@ -3,7 +3,7 @@
         'message' => 'failure',
     );
     $requestType = postv_t('requestType','addTrainingImage');
-    file_put_contents('/vagrant/data.log', $requestType."\r\n",FILE_APPEND);
+    //file_put_contents('/vagrant/data.log', $requestType."\r\n",FILE_APPEND);
     switch ($requestType) {
         case 'addTrainingImage':
             $fileHash = md5(uniqid(mt_rand(), true));
