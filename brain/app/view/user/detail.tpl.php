@@ -85,9 +85,9 @@
        },
        success:function(data){
            console.log(JSON.stringify(data));
-            $('#name').val(data.userInfo.userName);
+            $('#name').val(data.userInfo.name);
             $('#password').val(data.userInfo.password);
-            $('#phone').val(data.userInfo.mobileNum);
+            $('#mobileNum').val(data.userInfo.mobile_num);
             $('#email').val(data.userInfo.email);
        },
        error:function(data){
