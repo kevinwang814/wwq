@@ -3,7 +3,7 @@
         'message' => 'failure',
     );
     $requestType = postv_t('requestType','addNewsImage');
-    file_put_contents('/vagrant/data.log', json_encode($_POST)."\r\n",FILE_APPEND);
+    //file_put_contents('/vagrant/data.log', json_encode($_POST)."\r\n",FILE_APPEND);
     switch ($requestType) {
         //添加新闻图片
         case 'addNewsImage':
