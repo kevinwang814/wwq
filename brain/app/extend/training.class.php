@@ -85,6 +85,22 @@
             return $trainingList;
         }
         
+        public function getInfo($id){
+            $trainingInfo = importModel('Training')->getBy(array('id'=>$id));
+            if(!$trainingInfo){
+                return null;
+            }else{
+                return $this->formatInfo($trainingInfo);
+            }
+        }
         
+        public function formatInfo($trainingInfo){
+            $hashArr = explode(',', $trainingInfo['hash']);
+            unset($trainingInfo['hash']);
+            foreach($hashArr as $hash){
+                $trainingInfo['src'][] = "http://".C('img_host')."/training/width_200/".$hash.".jpg";
+            }
+            return $trainingInfo;
+        }
         
     }

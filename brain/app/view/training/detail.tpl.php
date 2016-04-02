@@ -8,7 +8,7 @@
                   <button type="button" class="btn btn-primary" id="update">编辑<btton>
              </div>
 
-            <form class="form-horizontal" action="#" method="post">
+            <div class="form-horizontal">
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">培训标题：</label>
                     <div class="col-md-6 col-xs-6">
@@ -35,7 +35,7 @@
                      <div class="col-md-10 col-xs-10 img_add text-left">
                           <!-- 上传图片【start】-->
                           <div class="rewri_file">
-                               <input id="newsImage" name="newsImage" type="file" />
+                               <input id="trainingImage" name="trainingImage" type="file" />
                                <span></span>
                           </div>
                      </div>
@@ -47,10 +47,10 @@
                 
                 <div class="form-group">
                     <div class="col-md-offset-2 col-xs-offset-2 col-md-4 col-xs-4">
-                        <button type="submit" class="btn btn-primary">确 认 修 改</button>
+                        <button id="submit" class="btn btn-primary">确 认 修 改</button>
                     </div>
                 </div>
-            </form>
+            </div>
         </section>
         <!-- 新闻动态管理内容【结束】-->
     </div>
@@ -91,7 +91,7 @@
      
     //详情页面新增图片(这部分布局有问题，你处理一下)
     var fileType = new Array('image/png','image/jpeg','image/gif','image/bmp');
-    $(document).on("change",'#newsImage',function(){
+    $(document).on("change",'#trainingImage',function(){
         var file = $(this).get(0).files[0];
         var type = file['type'];
         var fileElementId = $(this).attr('id');
@@ -129,17 +129,16 @@
        dataType:'json',
        data:{
            id:id,
-           requestType:'detailNews',
+           requestType:'detailTraining',
        },
        success:function(data){
            //console.log(JSON.stringify(data));
-           alert(data.newsInfo.src.length);
            //存储newsid到确认修改按钮里面
-           $('#submit').attr('news-id',data.newsInfo.id);
-           $('#title').val(data.newsInfo.title);
-           $('#description').val(data.newsInfo.description);
-           $('#content').val(data.newsInfo.content);
-           files = data.newsInfo.src;
+           $('#submit').attr('training-id',data.trainingInfo.id);
+           $('#title').val(data.trainingInfo.title);
+           $('#description').val(data.trainingInfo.description);
+           $('#content').val(data.trainingInfo.content);
+           files = data.trainingInfo.src;
            for(var i = 0;i < files.length;i ++) {
                $('#imgs').append('<div class="img_dat"><span></span><img src="' + files[i] + '" alt=" "></div>');
            }
@@ -172,12 +171,12 @@
                     description:description,
                     content:content,
                     imgStr:imgStr,
-                    requestType:'updateNews'
+                    requestType:'updateTraining'
                 },
                 success:function(data){
                     if(data.message == 'success'){
                         alert("操作成功!");
-                        window.location.href = '/news/list.html';
+                        window.location.href = '/training/list.html';
                     }
                 },
                 error:function(data){
