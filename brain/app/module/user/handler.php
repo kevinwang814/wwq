@@ -60,7 +60,7 @@
             //file_put_contents('/vagrant/data.log', json_encode($userInfo)."\r\n",FILE_APPEND);
             if($userInfo){
                 $responseData['message'] = "success";
-                $responseData['$userInfo'] = $userInfo;
+                $responseData['userInfo'] = $userInfo;
                 Ext_Misc::api_output($responseData);
             }else{
                 Ext_Misc::api_output($responseData);
