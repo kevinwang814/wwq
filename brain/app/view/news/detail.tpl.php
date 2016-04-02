@@ -42,7 +42,8 @@
 
                 <div class="form-group text-left" id="imgs">
                     <label class="col-md-2 col-xs-2  control-label" >新闻图片：</label>
-
+                    <div id="imgs_show" class="col-md-10 col-xs-10 text-left" >
+                    </div>
                 </div>
 
                 <div class="form-group" >
@@ -135,7 +136,7 @@
     });
 
     //点击图片删除事件
-        $(document).on('click','.img_dat',function() {
+        $(document).on('click','.img_add .img_dat',function() {
             if(confirm('是否要删除吗？')) {
                  $(this).remove();
             }
@@ -166,7 +167,7 @@
            $('#content').val(data.newsInfo.content);
            files = data.newsInfo.src;
            for(var i = 0;i < files.length;i ++) {
-               $('#imgs').append('<div class="img_dat"><span></span><img src="' + files[i] + '" alt=" "></div>');
+               $('#imgs #imgs_show').append('<div class="img_dat"><span></span><img src="' + files[i] + '" alt=" "></div>');
            }
 
 

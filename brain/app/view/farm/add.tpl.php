@@ -23,19 +23,14 @@
                 </div>
             </div>
             <div class="form-group">
-                <label class="col-md-2 col-xs-2  control-label">农场图片：</label>
-                <div class="col-md-4 col-xs-4 img_add text-left">
-                    <!-- 上传图片【start】-->
-                    <div class="rewri_file">
-                        <input id="farmImage" name="farmImage" type="file" />
-                        <span></span>
-                    </div>
-                    <!--
-                       data-max-file-count="2" 设置最多上传数量
-                    -->
-                    <!-- 上传图片【end】-->
-                </div>
-    
+                 <label class="col-md-2 col-xs-2  control-label">培训图片：</label>
+                 <div class="col-md-10 col-xs-10 img_add text-left">
+                     <!-- 上传图片【start】-->
+                     <div class="rewri_file">
+                         <input id="farmImage" name="farmImage" type="file" />
+                         <span></span>
+                     </div>
+                 </div>
             </div>
             <div class="form-group">
                 <label class="col-md-2 col-xs-2  control-label">农场种子：</label>
@@ -143,7 +138,7 @@
     
     });
      //点击图片删除事件
-        $(document).on('click','.img_dat',function() {
+        $(document).on('click','.img_add .img_dat',function() {
             if(confirm('是否要删除吗？')) {
                  $(this).remove();
             }
