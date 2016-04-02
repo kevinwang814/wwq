@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02368190-6c1d-4d27-80a0-16750bf45806" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brain/app/view/news/add.tpl.php" afterPath="$PROJECT_DIR$/brain/app/view/news/add.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brain/app/view/news/detail.tpl.php" afterPath="$PROJECT_DIR$/brain/app/view/news/detail.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brain/app/view/training/detail.tpl.php" afterPath="$PROJECT_DIR$/brain/app/view/training/detail.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brain/app/module/news/handler.php" afterPath="$PROJECT_DIR$/brain/app/module/news/handler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brain/css/main.css" afterPath="$PROJECT_DIR$/brain/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brain/app/module/training/handler.php" afterPath="$PROJECT_DIR$/brain/app/module/training/handler.php" />
     </list>
     <ignored path="wwq.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="detail.tpl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="detail.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brain/app/view/training/detail.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9388336">
-              <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+            <state vertical-scroll-proportion="15.555555">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handler.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/brain/app/module/training/handler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.14224751">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -62,6 +68,7 @@
         <option value="$PROJECT_DIR$/brain/css/main.css" />
         <option value="$PROJECT_DIR$/brain/app/view/news/detail.tpl.php" />
         <option value="$PROJECT_DIR$/brain/app/view/training/detail.tpl.php" />
+        <option value="$PROJECT_DIR$/brain/app/module/training/handler.php" />
       </list>
     </option>
   </component>
@@ -227,6 +234,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wwq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wwq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -543,8 +576,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/brain/app/view/training/detail.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9388336">
-          <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+        <state vertical-scroll-proportion="15.555555">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain/app/module/training/handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14224751">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding />
         </state>
       </provider>

@@ -44,21 +44,7 @@
                      <label class="col-md-2 col-xs-2  control-label" >培训图片：</label>
                 </div>
 
-                /*<div class="form-group">
-                    <label class="col-md-2 col-xs-2  control-label">原始培训图片：</label>
-                    <img src="img/farm_img2.jpg" class="col-md-4 col-xs-4" alt="img">
-                </div>
-                <div class="form-group">
-                    <label class="col-md-2 col-xs-2  control-label">修改培训图片：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <!-- 上传图片【start】-->
-                        <input id="file-1" type="file" multiple class="file" data-overwrite-initial="false" data-max-file-count="1">
-                        <!--
-                           data-max-file-count="2" 设置最多上传数量
-                        -->
-                        <!-- 上传图片【end】-->
-                    </div>
-                </div>*/
+                
                 <div class="form-group">
                     <div class="col-md-offset-2 col-xs-offset-2 col-md-4 col-xs-4">
                         <button type="submit" class="btn btn-primary">确 认 修 改</button>
