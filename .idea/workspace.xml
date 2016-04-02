@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02368190-6c1d-4d27-80a0-16750bf45806" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brain/app/view/user/detail.tpl.php" afterPath="$PROJECT_DIR$/brain/app/view/user/detail.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brain/app/module/user/handler.php" afterPath="$PROJECT_DIR$/brain/app/module/user/handler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="02368190-6c1d-4d27-80a0-16750bf45806" name="Default" comment="" />
     <ignored path="wwq.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,8 +74,8 @@
       <file leaf-file-name="detail.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/brain/app/view/user/detail.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82930297">
-              <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.77240396">
+              <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -878,8 +874,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/brain/app/view/user/detail.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82930297">
-          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.77240396">
+          <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
           <folding />
         </state>
       </provider>
