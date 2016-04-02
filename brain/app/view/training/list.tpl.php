@@ -84,5 +84,26 @@
         $('.menu:eq(3) .menu-content span').addClass('cur');
         $('.menu:eq(3) .second-nav li:eq(0)').addClass('active');
     });
+    
+    $(document).on('click','.deleteTraining',function(){
+        var trainingId = $(this).attr('training-id');
+        if(window.confirm('删除将是不可修复的，确定删除?')){
+            $.ajax({
+                url:'handler.html',
+                type:'POST',
+                dataType:'json',
+                data:{
+                    trainingId:trainingId,
+                    requestType:'deleteTraining'
+                },
+                success:function(data,status,xhr){
+                    if(data.status == 'success'){
+                        alert("操作成功!");
+                        window.location.href = '/training/list.html';
+                    }
+                },
+            });
+        }
+    });
 </script>
 <?php $this->_endblock();

@@ -51,6 +51,32 @@
                 Ext_Misc::api_output($responseData);
             }
             break;
+
+        //删除新闻
+        case 'deleteTraining':
+            $training_id = postv_t('trainingId');
+            $fieldData = array(
+                'status' => 'disabled',
+            );
+            $time = time();
+            $ret = false;
+            $trainingModel = importModel('Training');
+            if($training_id != ''){
+                $cond = array(
+                    'id'=>$training_id,
+                );
+                $fieldData['update_time'] = $time;
+                if($trainingModel->updateBy($cond, $fieldData)){
+                    $ret = true;
+                }
+            }
+            if($ret){
+                $responseData['status'] = "success";
+                Ext_Misc::api_output($responseData);
+            }else{
+                Ext_Misc::api_output($responseData);   
+            }
+            break;
         default:
             break;
     }
