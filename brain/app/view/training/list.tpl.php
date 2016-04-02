@@ -8,7 +8,7 @@
             <div class="panel panel-primary">
                 <div class="panel-heading">
                     <div class="row">
-                        <h3 class="panel-title col-md-1 col-xs-3 col-sm-3" >培训管理</h3>
+                        <h3 class="panel-title col-md-3 col-xs-3 col-sm-3" >培训管理</h3>
                         <div class="col-md-2 col-xs-3 col-sm-3">
                             <button type="button" class="btn btn-default" onclick="window.location.href='/training/add.html'">
                                 <span class="glyphicon glyphicon-plus"></span>
@@ -51,7 +51,7 @@
                                         $dom .= '<td>'.$trainingInfo['title'].'</td>';
                                         $dom .= '<td>'.$trainingInfo['update_time'].'</td>';
                                         $dom .= '<td><button type="button" class="btn btn-primary update" onclick="window.location.href=\''.U('training/detail',array('id'=>$trainingInfo['id'])).'\'">';
-                                        $dom .= '<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>修改</button>';
+                                        $dom .= '<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>详情</button>';
                                         $dom .= '<button type="button" class="btn btn-danger delete deleteTraining" training-id='.$trainingInfo['id'].'>';
                                         $dom .= '<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>删除';
                                         $dom .= '</button></td>';

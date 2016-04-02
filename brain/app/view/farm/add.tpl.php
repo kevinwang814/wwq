@@ -6,13 +6,13 @@
         <form class="form-horizontal" action="#" method="post">
             <div class="form-group">
                 <label class="col-md-2 col-xs-2  control-label">农场名称：</label>
-                <div class="col-md-4 col-xs-4">
+                <div class="col-md-6 col-xs-6">
                     <input type="text" class="form-control" id="name" placeholder="农场名称" required>
                 </div>
             </div>
             <div class="form-group">
                 <label  class="col-sm-2 control-label">农场主：</label>
-                <div class="col-md-4 col-xs-4">
+                <div class="col-md-6 col-xs-6">
                     <select class="form-control" required id="farmer">
                         <option value="0" selected>请选择农场主姓名</option>
                         <option value="1">王文倩</option>
@@ -34,7 +34,7 @@
             </div>
             <div class="form-group">
                 <label class="col-md-2 col-xs-2  control-label">农场种子：</label>
-                <div class="col-md-4 col-xs-4 text-left">
+                <div class="col-md-6 col-xs-6 text-left">
                     <div class="checkbox">
                         蔬菜种子：
                         <label>
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="form-group">
-                <div class="checkbox col-md-4 col-xs-4 col-md-offset-2 col-xs-offset-2 text-left" >
+                <div class="checkbox col-md-6 col-xs-6 col-md-offset-2 col-xs-offset-2 text-left" >
                     瓜果种子：
                     <label>
                         <input type="checkbox" value="" >
@@ -72,7 +72,7 @@
             </div>
             <div class="form-group">
                 <label  class="col-sm-2 control-label">农场工具：</label>
-                <div class="col-md-4 col-xs-4 text-left">
+                <div class="col-md-6 col-xs-6 text-left">
                     <div class="checkbox">
                         <label>
                             <input type="checkbox" value="">

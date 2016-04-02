@@ -6,37 +6,36 @@
             <form class="form-horizontal" action="#" method="post">
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">案例名称：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <input type="text" class="form-control" placeholder="案例名称" required>
+                    <div class="col-md-6 col-xs-6">
+                        <input type="text" id="" class="form-control" placeholder="案例名称" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">案例描述：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <textarea class="form-control" style="height: 200px;overflow-y: scroll" required>
+                    <div class="col-md-6 col-xs-6">
+                        <textarea id="" class="form-control" style="height: 200px;overflow-y: scroll" required>
                         </textarea>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">案例所属人姓名：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <input type="text" class="form-control" placeholder="案例所属人姓名" required>
+                    <div class="col-md-6 col-xs-6">
+                        <input type="text" id="" class="form-control" placeholder="案例所属人姓名" required>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-2 col-xs-2  control-label">案例图片：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <!-- 上传图片【start】-->
-                        <input id="caseImage" name="caseImage" type="file" />
-                        <!--
-                           data-max-file-count="2" 设置最多上传数量
-                        -->
-                        <!-- 上传图片【end】-->
+                     <label class="col-md-2 col-xs-2  control-label">案例图片：</label>
+                     <div class="col-md-10 col-xs-10 img_add text-left">
+                          <!-- 上传图片【start】-->
+                          <div class="rewri_file">
+                                <input id="caseImage" name="caseImage" type="file" />
+                                <span></span>
+                          </div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-md-offset-2 col-xs-offset-2 col-md-4 col-xs-4">
-                        <button type="submit" class="btn btn-primary">确 认 添 加</button>
+                        <button id="submit" class="btn btn-primary">确 认 添 加</button>
                     </div>
                 </div>
             </form>

@@ -8,7 +8,7 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading">
                         <div class="row">
-                            <h3 class="panel-title col-md-1 col-xs-3 col-sm-3" >工具管理</h3>
+                            <h3 class="panel-title col-md-3 col-xs-3 col-sm-3" >工具管理</h3>
                             <div class="col-md-2 col-xs-3 col-sm-3">
                                 <button type="button" class="btn btn-default" onclick="window.location.href='添加工具.html'">
                                     <span class="glyphicon glyphicon-plus"></span>
@@ -47,7 +47,7 @@
                                     <td>
                                         <button type="button" class="btn btn-primary update" onclick="window.location.href='修改工具.html'">
                                             <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                                            修改
+                                            详情
                                         </button>
                                         <button type="button" class="btn btn-danger delete" onclick="window.location.href='#'">
                                             <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
@@ -63,7 +63,7 @@
                                     <td>
                                         <button type="button" class="btn btn-primary update" onclick="window.location.href='修改工具.html'">
                                             <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                                            修改
+                                            详情
                                         </button>
                                         <button type="button" class="btn btn-danger" onclick="window.location.href='#'">
                                             <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
@@ -79,7 +79,7 @@
                                     <td>
                                         <button type="button" class="btn btn-primary update" onclick="window.location.href='修改工具.html'">
                                             <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                                            修改
+                                            详情
                                         </button>
                                         <button type="button" class="btn btn-danger" onclick="window.location.href='#'">
                                             <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
@@ -95,7 +95,7 @@
                                     <td>
                                         <button type="button" class="btn btn-primary update" onclick="window.location.href='修改工具.html'">
                                             <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                                            修改
+                                            详情
                                         </button>
                                         <button type="button" class="btn btn-danger delete" onclick="window.location.href='#'">
                                             <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>

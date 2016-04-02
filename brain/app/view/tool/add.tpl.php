@@ -7,30 +7,29 @@
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">工具名称：</label>
                     <div class="col-md-4 col-xs-4">
-                        <input type="text" class="form-control" placeholder="工具名称" required>
+                        <input type="text" id="name" class="form-control" placeholder="工具名称" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">工具描述：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <textarea class="form-control" style="height: 200px;overflow-y: scroll" required>
+                    <div class="col-md-4 col-xs-4" >
+                        <textarea id="description" class="form-control" style="height: 200px;overflow-y: scroll" required>
                         </textarea>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-2 col-xs-2  control-label">工具图片：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <!-- 上传图片【start】-->
-                        <input id="toolImage" name="toolImage" type="file" />
-                        <!--
-                           data-max-file-count="2" 设置最多上传数量
-                        -->
-                        <!-- 上传图片【end】-->
-                    </div>
+                   <label class="col-md-2 col-xs-2  control-label">工具图片：</label>
+                   <div class="col-md-10 col-xs-10 img_add text-left">
+                      <!-- 上传图片【start】-->
+                      <div class="rewri_file">
+                         <input id="toolImage" name="toolImage" type="file" />
+                         <span></span>
+                      </div>
+                   </div>
                 </div>
                 <div class="form-group">
                     <div class="col-md-offset-2 col-xs-offset-2 col-md-4 col-xs-4">
-                        <button type="submit" class="btn btn-primary">确 认 添 加</button>
+                        <button id="submit" class="btn btn-primary">确 认 添 加</button>
                     </div>
                 </div>
             </form>

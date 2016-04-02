@@ -8,7 +8,7 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading">
                         <div class="row">
-                            <h3 class="panel-title col-md-1 col-xs-3 col-sm-3" >用户管理</h3>
+                            <h3 class="panel-title col-md-3 col-xs-3 col-sm-3" >用户管理</h3>
                             <div class="col-md-2 col-xs-3 col-sm-3">
                                 <button type="button" class="btn btn-default" onclick="window.location.href='/user/add.html'">
                                     <span class="glyphicon glyphicon-plus"></span>

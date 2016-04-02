@@ -153,19 +153,19 @@
 
     //点击编辑事件
         $(function () {
-           $('#hide_content,#submit,#hide_name').hide();
+           $('#hide_content,#submit,.hide_name').hide();
            $('#update').on('click', function () {
                var $text = $(this).text().trim();
                if($text == '编辑') {
                   $('.form-control').removeAttr('readonly').removeClass('only_read');
-                  $('#hide_content,#submit,#hide_name').show();
+                  $('#hide_content,#submit,.hide_name').show();
                   $('#imgs .img_dat').clone().appendTo('.img_add');
                   $('#imgs').hide();
                   $(this).text('取消编辑');
                }
                else{
                   $('.form-control').attr('readonly','readonly').addClass('only_read');
-                  $('#hide_content,#submit,#hide_name').hide();
+                  $('#hide_content,#submit,.hide_name').hide();
                   $('#imgs').show();
                   $(this).text('编辑');
 
@@ -220,10 +220,10 @@
                //console.log(JSON.stringify(data));
                //存储newsid到确认修改按钮里面
                $('#submit').attr('farm-id',data.farmInfo.id);
-               $('#title').val(data.trainingInfo.title);
-               $('#description').val(data.trainingInfo.description);
-               $('#content').val(data.trainingInfo.content);
-               files = data.trainingInfo.src;
+               $('#title').val(data.farmInfo.title);
+               $('#description').val(data.farmInfo.description);
+               $('#content').val(data.farmInfo.content);
+               files = data.farmInfo.src;
                for(var i = 0;i < files.length;i ++) {
                    $('#imgs #imgs_show').append('<div class="img_dat"><span></span><img src="' + files[i] + '" alt=" "></div>');
                }

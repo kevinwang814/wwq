@@ -52,7 +52,7 @@
                 <div class="form-group">
                     <label  class="col-sm-2 control-label">案例所属人姓名：</label>
                     <div class="col-md-4 col-xs-4">
-                        <input type="text" class="form-control" value="小王">
+                        <input type="text" class="form-control only_read" value="小王" readonly>
                     </div>
                 </div>
                 <div class="form-group">

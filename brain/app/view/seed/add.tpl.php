@@ -7,20 +7,20 @@
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">种子名称：</label>
                     <div class="col-md-4 col-xs-4">
-                        <input type="text" class="form-control" placeholder="种子名称" required>
+                        <input type="text" id="name" class="form-control" placeholder="种子名称" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="col-md-2 col-xs-2  control-label">种子描述：</label>
                     <div class="col-md-4 col-xs-4">
-                        <textarea class="form-control" style="height: 200px;overflow-y: scroll" required>
+                        <textarea id="description" class="form-control" style="height: 200px;overflow-y: scroll" required>
                         </textarea>
                     </div>
                 </div>
                 <div class="form-group">
                     <label  class="col-sm-2 control-label">种子类别：</label>
                     <div class="col-md-4 col-xs-4">
-                        <select class="form-control">
+                        <select class="form-control" id="select_type">
                             <option value="0" selected>请选择种子类别</option>
                             <option value="1">蔬菜种子</option>
                             <option value="2">水果种子</option>
@@ -28,19 +28,18 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-2 col-xs-2  control-label">种子图片：</label>
-                    <div class="col-md-4 col-xs-4">
-                        <!-- 上传图片【start】-->
-                        <input id="seedImage" name="seedImage" type="file" />
-                        <!--
-                           data-max-file-count="2" 设置最多上传数量
-                        -->
-                        <!-- 上传图片【end】-->
-                    </div>
+                     <label class="col-md-2 col-xs-2  control-label">种子图片：</label>
+                     <div class="col-md-10 col-xs-10 img_add text-left">
+                          <!-- 上传图片【start】-->
+                          <div class="rewri_file">
+                               <input id="seedImage" name="seedImage" type="file" />
+                               <span></span>
+                          </div>
+                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-md-offset-2 col-xs-offset-2 col-md-4 col-xs-4">
-                        <button type="submit" class="btn btn-primary">确 认 添 加</button>
+                        <button id="submit" class="btn btn-primary">确 认 添 加</button>
                     </div>
                 </div>
             </form>

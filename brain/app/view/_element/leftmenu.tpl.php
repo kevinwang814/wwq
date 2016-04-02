@@ -15,7 +15,7 @@
             <ul class="second-nav">
                     <li class="second-nav-list">
                         <a href="/user/list.html" class="detail">
-                            所有用户
+                            用户列表
                         </a>
                     </li>
                     <li class="second-nav-list">
@@ -35,7 +35,7 @@
             <ul class="second-nav">
                 <li class="second-nav-list">
                     <a href="/news/list.html" class="detail">
-                        所有新闻
+                        新闻列表
                     </a>
                 </li>
                 <li class="second-nav-list">
@@ -75,7 +75,7 @@
             <ul class="second-nav">
                 <li class="second-nav-list">
                     <a href="/training/list.html" class="detail">
-                        所有培训
+                        培训列表
                     </a>
                 </li>
                 <li class="second-nav-list">
